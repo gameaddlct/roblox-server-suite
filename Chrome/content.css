@@ -1,0 +1,87 @@
+/* ── Last Session bar ───────────────────────────────────────────────────────── */
+#rss-last-session {
+    margin-bottom: 6px !important;
+    white-space: nowrap !important;
+    text-align: left !important;
+    display: block !important;
+    align-self: flex-start !important;
+    width: 100% !important;
+}
+
+#rss-btn-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    width: 100% !important;
+}
+
+#rss-smart-join {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    aspect-ratio: 1 !important;
+    flex-shrink: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    background: #00A2FF !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    box-sizing: border-box !important;
+    transition: background 0.15s !important;
+}
+
+#rss-smart-join:hover {
+    background: #0081cc !important;
+}
+
+#rss-smart-join svg {
+    width: 55% !important;
+    height: 55% !important;
+}
+
+/* ── Private Server dropdown extras ─────────────────────────────────────── */
+.rbx-private-game-server-menu .dropdown-menu {
+    min-width: 160px !important;
+    width: max-content !important;
+}
+
+.rbx-private-game-server-menu .dropdown-menu li button:disabled {
+    opacity: 0.4 !important;
+    cursor: not-allowed !important;
+}
+
+
+.rbx-private-game-server-menu .dropdown-menu li button:disabled {
+    opacity: 0.4 !important;
+    cursor: not-allowed !important;
+}
+
+/* ── Private Servers collapse ───────────────────────────────────────────── */
+#rss-private-collapse {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: none !important;
+    border: none !important;
+    cursor: pointer !important;
+    color: inherit !important;
+    opacity: 0.7 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 3px !important;
+    flex-shrink: 0 !important;
+    transition: opacity 0.15s !important;
+}
+
+#rss-private-collapse:hover {
+    opacity: 1 !important;
+}
+
+#rss-private-collapse svg {
+    width: 100% !important;
+    height: 100% !important;
+}
+#rss-private-collapse:hover {
+    opacity: 1 !important;
+}

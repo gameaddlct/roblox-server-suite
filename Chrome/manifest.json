@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Roblox Server Suite",
+  "version": "2.4",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "*://*.roblox.com/*",
+    "https://games.roblox.com/*"
+  ],
+  "icons": {
+    "512": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.roblox.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css", "styles.css"]
+    }
+  ]
+}
